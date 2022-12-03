@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: #EDFFFA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    
+}
+
+
+.nav-bar{
+    border: 2px #2C3531;
+    background-color: #2C3531;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.title-container{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: 179px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    background-image: url(../img/Rectangle\ 2.jpg);
+    color: #EDFFFA;
+
+}
+
+.comp-container{
+    width: 330px;
+    height: 316px;
+    background: #ffffff;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+    border-radius: 3px;
+;
+}
+.button-join{
+    font-family: 'Raleway', sans-serif;
+    background-color: #116466;
+    height: 36px;
+    width: 290px;
+    color: #EDFFFA;
+
+}
+.filter-container{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+
+}
+.comp-creator{
+    font-size: small;  
+    display: flex;
+
+    
+}
+.comp-title{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+    margin: 3px;
+    flex-wrap: wrap;
+
+    
+}
+.comp-jobdescription{
+    font-size: small;
+}
+
+.comp-feat-person{
+    display: flex;
+    font-size: small;
+    margin: 5px;
+
+}
+.comp-feat-time{
+    display: flex;
+    font-size: small;
+    margin: 5px;
+
+}
+.comp-feat-clock{
+    display: flex;
+    font-size: small;
+    margin: 5px;
+
+}
+
+.search-bar{
+    width: 930px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.button-AddProject{
+    width: 160px;
+    height: 36px;
+    background-color: #ffcb9a;
+    border-radius: 2px;
+    color: #EDFFFA;
+    font-size: 16px;
+}
+
+.button-log{
+    background-color: #D1E8E2;
+    border-radius: 2px;
+    color: #EDFFFA;
+    font-size: 16px;
+    width: 160px;
+    height: 36px;
+}
+
+.third-title{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2C3531;
+    height: 28px;
+    font-style: normal;
+    margin: 30px;
+    width: 1000px;
+    
+
+}
+
+.info-container{
+    display: flex;
+    max-width: 100%;
+    height: 811px;
+
+   
+}
+
+.comp1-brand{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: content-box;
+    margin-left: 30px;
+}
+
+.form-selector{
+    width: 280px;
+    height: 40px;
+    background-color: #ffffff;
+ 
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.selector-title1 {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    margin: 0px; 
+}
+
+.button-filter{
+    width: 136px;
+    height: 36px;
+    background-color: #116466;
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: #EDFFFA;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.button-clear{
+    width: 136px;
+    height: 36px;
+    background-color: #D1E8E2;
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: #2C3531;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.time-title{
+    display: flex;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 50px;
+    
+}
+
+.right-nav a {
+    margin: 5px;
+}
+
+.right-nav .button-log{
+    margin: 5px;
+}
+.left-nav .button-AddProject{
+    margin: 5px;
+}
+
+.sub-title{
+    display: flex;
+    margin: 0px 0px 10px 5px;
+    flex-direction: column;
+}
+
+.comp-job{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-title{
+    margin-bottom:15px ;
+    margin-top: 15px;
+}
+.hr-line{
+    background-color: black;
+}
+.div-comp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    
+}
+
+.img-card{
+    width: 15px;
+    height: 15px;
+    
+    
+}
+
+.persons{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.button-container{
+margin-left: 20px;
+
+}
+
